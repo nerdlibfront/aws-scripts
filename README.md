@@ -19,3 +19,14 @@ Be aware that this executes just what i have pushed to github, so if you don't t
 
 To check if it worked, ssh into your instance and run `docker info`. If this echos out data of the docker daemon your instance is ready to use docker.
 
+install-cloud9-for-eks.sh
+-------------------------
+
+Installs all necessary things in a new cloud9 Workspace if you want to work with EKS.
+
+Usage:
+```
+bash <(curl -s https://raw.githubusercontent.com/nerdlibfront/aws-scripts/master/install-cloud9-for-eks.sh)
+```
+
+Source taken from https://www.eksworkshop.com/020_prerequisites/k8stools/
